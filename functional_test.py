@@ -53,9 +53,12 @@ class NewVisitorTest(unittest.TestCase):
         self.check_for_row_in_list_table("2: Use peacock feathers to make a fly")
         self.check_for_row_in_list_table("1: Buy peacock feathers")
 
+         # Satisfied, she goes back to sleep
+
+
         # There is still a text box inviting her to add another item.
         # She enters "Use peacock feathers to make a fly"
-        # (Edith is very methodical)
+        # (Ed   ith is very methodical)
         self.fail("Finish the test!")
 
    
