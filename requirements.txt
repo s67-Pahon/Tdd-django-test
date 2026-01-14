@@ -1,3 +1,7 @@
+pip freeze > requirements.txt
+
+
 Django
-blinker
 gunicorn
+whitenoise
+blinker
